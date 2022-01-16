@@ -5600,7 +5600,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.6
   m_Pitch: 0.9366631
   Loop: 0
   Mute: 0
@@ -5644,7 +5644,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 0
+      value: 0.5
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5674,7 +5674,7 @@ AudioSource:
     m_Curve:
     - serializedVersion: 3
       time: 0
-      value: 1
+      value: 0.873
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -5727,13 +5727,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2deb7ea1e5afa54a97d3661536432d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds:
-  - {fileID: 8300000, guid: cf916cb867a7bd34a9cb7760cc7de534, type: 3}
-  - {fileID: 8300000, guid: e719d4b6c926aba439c59a7eb0cb7fe9, type: 3}
-  - {fileID: 8300000, guid: 6485d11c38812114bb29b2a7ae5e0e8d, type: 3}
+  steppingClips:
+  - {fileID: 8300000, guid: 4d95f04c23bb6da4ea5998d0ae8ff938, type: 3}
+  - {fileID: 8300000, guid: 0b97a5fa519237b48b3c481e754bbc6d, type: 3}
+  - {fileID: 8300000, guid: db4898fabfaf9bf46bcd021e90871004, type: 3}
+  breakingClips:
+  - {fileID: 8300000, guid: cb62352ec1546f643936ca9e523792af, type: 3}
   audioSource: {fileID: 7493851534432575239}
   waitTime: 0.4
   enableStepSound: 1
+  playSoundOnStart: 1
 --- !u!1 &7764253647925191632
 GameObject:
   m_ObjectHideFlags: 0
