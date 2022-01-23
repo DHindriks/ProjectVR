@@ -33,6 +33,7 @@ public class PhoneScript : MonoBehaviour
         MsgContainer.GetComponentInParent<ScrollRect>();
         if (message.Response != null)
         {
+            StartCoroutine(TextDelay(message.Response, 15));
             recieveMSG(message.Response);
         }
 
@@ -52,6 +53,15 @@ public class PhoneScript : MonoBehaviour
             }
         }
     }
+
+
+    IEnumerator TextDelay (TextMsg message, float DelaySeconds)
+    {
+        yield return new WaitForSeconds(DelaySeconds);
+        recieveMSG(message);
+
+    }
+
 }
 
 

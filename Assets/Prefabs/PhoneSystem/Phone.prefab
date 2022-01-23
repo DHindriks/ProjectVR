@@ -38,8 +38,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0.035}
-  m_SizeDelta: {x: 0.39, y: 0.39}
+  m_AnchoredPosition: {x: 0, y: 0.158}
+  m_SizeDelta: {x: 0.39, y: 0.1}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!223 &1819835665
 Canvas:
@@ -219,7 +219,6 @@ GameObject:
   - component: {fileID: 1338329489757539455}
   - component: {fileID: 1338329489757539452}
   - component: {fileID: 1338329489757539453}
-  - component: {fileID: 1338329489757539450}
   - component: {fileID: 1338329489757539440}
   m_Layer: 0
   m_Name: Phone
@@ -300,7 +299,7 @@ MonoBehaviour:
   ThrowForceMultiplier: 2
   ThrowForceMultiplierAngular: 1.5
   BreakDistance: 0
-  HideHandGraphics: 0
+  HideHandGraphics: 1
   ParentToHands: 0
   ParentHandModel: 1
   SnapHandModel: 1
@@ -361,38 +360,6 @@ MonoBehaviour:
   RingOnValidPickup: 1
   RingOnValidRemotePickup: 1
   RingHelperScale: 0.2
---- !u!114 &1338329489757539450
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1338329489757539451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5c6de38f13d6b1443b2c5a5a20ac08d6, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Health: 100
-  SpawnOnDeath: {fileID: 0}
-  ActivateGameObjectsOnDeath: []
-  DeactivateGameObjectsOnDeath: []
-  DeactivateCollidersOnDeath: []
-  DestroyOnDeath: 1
-  DropOnDeath: 1
-  DestroyDelay: 0
-  Respawn: 1
-  RespawnTime: 10
-  RemoveBulletHolesOnDeath: 1
-  onDamaged:
-    m_PersistentCalls:
-      m_Calls: []
-  onDestroyed:
-    m_PersistentCalls:
-      m_Calls: []
-  onRespawn:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!114 &1338329489757539440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -706,7 +673,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1338329489970202620}
   m_HandleRect: {fileID: 1338329489970202621}
   m_Direction: 2
-  m_Value: 1
+  m_Value: 0
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -879,7 +846,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 100, y: 200}
+  m_SizeDelta: {x: 100, y: 190}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1338329490474560708
 CanvasRenderer:
@@ -1220,7 +1187,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0.0009647463, y: 199.99915}
+  m_AnchoredPosition: {x: 0.0009647463, y: 190.0001}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1338329490907148773
