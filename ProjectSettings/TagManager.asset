@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - NPC1
+  - NoKnifePartyNPC1
+  - NoKnifePartyNPC2
+  - NoKnifePartyNPC3
   layers:
   - Default
   - TransparentFX
