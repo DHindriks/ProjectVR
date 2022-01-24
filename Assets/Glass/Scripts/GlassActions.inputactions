@@ -1,0 +1,34 @@
+{
+    "name": "GlassActions",
+    "maps": [
+        {
+            "name": "BrokenGlass",
+            "id": "af7c9f62-36b2-4b14-b058-118e5ed6a2ae",
+            "actions": [
+                {
+                    "name": "TriggerGlass",
+                    "type": "Button",
+                    "id": "a4e8dac1-9fcf-479e-b678-d2a10c8938da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "1c9d52d9-55b8-4ddb-ba06-324fa30a3e08",
+                    "path": "<Keyboard>/#(N)",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "TriggerGlass",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
