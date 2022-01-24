@@ -2052,6 +2052,134 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 53dec95df1424f74b83466b9d02ae8ba, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b9bc860373922584080483018760241f, type: 3}
+--- !u!1001 &1265416143591158832
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 23
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471552, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[0].Response.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[1].Response.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[2].Response.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[3].Response.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[0].Response.Array.data[0].Text
+      value: "She might have been?! Cmon man u had one legit one job. I think i told
+        you like 100 times this week <<I can not make it to the party on friday please
+        ask amber if she wants to come to the Awesome Marathon of Awesomeness at
+        my place next weekend>> you know I get to nervous when I try to talk to her
+        plus she is way chiller with you anyways\u2026 so yeah"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[1].Response.Array.data[0].Text
+      value: "OMG DUDE WHAT? I bet it was George, It always has to be George I swe-
+        WAIT WHAT DO YOU MEAN YOU DIDNT TALK TO HER? Cmon man u had one legit one
+        job. I think i told you like 100 times this week <<I can not make it to the
+        party on friday please ask amber if she wants to come to the Awesome Marathon
+        of Awesomeness at my place next weekend>> you know I get to nervous when
+        I try to talk to her plus she is way chiller with you anyways\u2026 so yeah
+        nice"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[2].Response.Array.data[0].Text
+      value: "I guess?!? Cmon man u had one legit one job. I think i told you like
+        100 times this week <<I can not make it to the party on friday please ask
+        amber if she wants to come to the Awesome Marathon of Awesomeness at my place
+        next weekend>> you know I get to nervous when I try to talk to her plus she
+        is way chiller with you anyways\u2026 so yea"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471553, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: Convo.Options.Array.data[3].Response.Array.data[0].Text
+      value: "Dude, I just can't be with you anymore. You legit dont give a damn
+        about anything you know like c'mon man u had one job legit one job. I think
+        i told you like 100 times this week <<I can not make it to the party on friday
+        please ask amber if she wants to come to the Awesome Marathon of Awesomeness
+        at my place next weekend>> you know I get to nervous when I try to talk to
+        her plus she is way chiller with you anyways\u2026 so yea"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1265416144677471583, guid: d2908093da613b54db4dec9f8510708c,
+        type: 3}
+      propertyPath: m_Name
+      value: Convo2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: d2908093da613b54db4dec9f8510708c, type: 3}
 --- !u!1001 &1338329490365442665
 PrefabInstance:
   m_ObjectHideFlags: 0

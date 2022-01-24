@@ -33,8 +33,8 @@ public class PhoneScript : MonoBehaviour
         MsgContainer.GetComponentInParent<ScrollRect>();
         if (message.Response != null)
         {
-            StartCoroutine(TextDelay(message.Response, 15));
-            recieveMSG(message.Response);
+            StartCoroutine(TextDelay(message.Response[0], 15));
+            recieveMSG(message.Response[0]);
         }
 
         foreach(Transform choice in ChoiceContainer.transform)
@@ -69,13 +69,13 @@ public class PhoneScript : MonoBehaviour
 [System.Serializable]
 public class TextMsg
 {
-    public string Sender;
+    //public string Sender;
     public string Text;
     public List<TextMsg> Options;
-    public TextMsg Response;
-    public TextMsg(string sender, string text, List<TextMsg> options = null, TextMsg response = null)
+    public List<TextMsg> Response;
+    public TextMsg(string sender, string text, List<TextMsg> options = null, List<TextMsg> response = null)
     {
-        Sender = sender;
+        //Sender = sender;
         Text = text;
         Options = options;
         Response = response;
