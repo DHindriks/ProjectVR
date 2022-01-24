@@ -31,7 +31,7 @@ public class PhoneScript : MonoBehaviour
         NewMsg.GetComponent<PhoneMsgScript>().Settext(message.Text);
         NewMsg.transform.SetAsFirstSibling();
         MsgContainer.GetComponentInParent<ScrollRect>();
-        if (message.Response != null)
+        if (message.Response != null && message.Response.Count > 0)
         {
             StartCoroutine(TextDelay(message.Response[0], 15));
             recieveMSG(message.Response[0]);
@@ -42,7 +42,7 @@ public class PhoneScript : MonoBehaviour
             Destroy(choice.gameObject);
         }
 
-        if (message.Options != null)
+        if (message.Options != null && message.Options.Count > 0)
         {
             foreach(TextMsg option in message.Options)
             {
