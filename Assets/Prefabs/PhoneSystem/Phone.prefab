@@ -236,7 +236,7 @@ Transform:
   m_GameObject: {fileID: 1338329489757539451}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.913, y: 1.2823, z: 1.699}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1338329489723952087}
@@ -379,27 +379,27 @@ MonoBehaviour:
   Replyprefab: {fileID: 2023101144422956052, guid: 8d29602ee70c0994eabd086eb383269b,
     type: 3}
   StartConvo:
-    Sender: Test
     Text: Test message
     Options:
-    - Sender: You
-      Text: What?
+    - Text: What?
       Options:
-      - Sender: Test
-        Text: Test message, please understand
+      - Text: Test message, please understand
         Options:
-        - Sender: 
-          Text: Choice 1
+        - Text: Choice 1
           Options: []
-        - Sender: 
-          Text: Choice 2
+          Response: []
+        - Text: Choice 2
           Options: []
-        - Sender: 
-          Text: Choice 3
+          Response: []
+        - Text: Choice 3
           Options: []
-    - Sender: You
-      Text: ...
+          Response: []
+        Response: []
+      Response: []
+    - Text: ...
       Options: []
+      Response: []
+    Response: []
 --- !u!1 &1338329489970202618
 GameObject:
   m_ObjectHideFlags: 0
