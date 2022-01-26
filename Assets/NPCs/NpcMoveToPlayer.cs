@@ -44,7 +44,7 @@ public class NpcMoveToPlayer : MonoBehaviour
         //The distance between start point and player.
         distanceNpcToPlayer = Vector3.Distance(this.transform.position, player.transform.position);
 
-        if (distanceNpcToPlayer <= 0.8f)
+        if (distanceNpcToPlayer <= 1.2f)
         {
             stopped = true;
             Debug.Log(distanceNpcToPlayer);

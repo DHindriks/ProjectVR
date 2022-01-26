@@ -37,6 +37,7 @@ public class NpcLookAtPlayer : MonoBehaviour
 
     private void Update()
     {
+        this.GetComponent<Rigidbody>().velocity = Vector3.zero;
         if (followPlayer)
         {
             targetPosition = player.transform.position;
