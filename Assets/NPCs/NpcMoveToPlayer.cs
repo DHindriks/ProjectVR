@@ -68,7 +68,8 @@ public class NpcMoveToPlayer : MonoBehaviour
 
         if (followPlayer && !stopped)
         {
-            this.transform.position = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.fixedDeltaTime);
+            Vector3 newPosition = Vector3.MoveTowards(this.transform.position, player.transform.position, speed * Time.fixedDeltaTime);
+            this.transform.position = new Vector3(newPosition.x, this.transform.position.y, newPosition.z);
             distanceNpcToStart = Vector3.Distance(this.transform.position, initialPosition);
             PlayAnimation("Walk");
 

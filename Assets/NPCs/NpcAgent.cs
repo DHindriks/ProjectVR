@@ -35,6 +35,7 @@ public class NpcAgent : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        this.GetComponent<Rigidbody>().velocity = Vector3.zero;
         timer += Time.fixedDeltaTime;
         float distanceToTarget = Vector3.Distance(transform.position, npcDestination);
 
@@ -43,6 +44,7 @@ public class NpcAgent : MonoBehaviour
             destinationSet = false;
             ChangeDestination();
             stopped = false;
+            timer = 0;
         }
 
         if (!stopped && !destinationSet)
@@ -53,9 +55,11 @@ public class NpcAgent : MonoBehaviour
         }
 
         distanceNpcToDestination = Vector3.Distance(this.transform.position, npcDestination);
-        if (distanceNpcToDestination <= 0.3f)
+        Debug.LogError(distanceNpcToDestination);
+        if (distanceNpcToDestination <= 1f)
         {
             stopped = true;
+            this.theAgent.isStopped = true;
             PlayAnimation("Idle");
         }
     }
@@ -71,11 +75,11 @@ public class NpcAgent : MonoBehaviour
     {
         if(0==(Random.Range(0, 2)))
         {
-            return Random.Range(1, range);
+            return Random.Range(3, range);
         }
         else
         {
-            return Random.Range(-1, -range);
+            return Random.Range(-3, -range);
         }
     }
 
