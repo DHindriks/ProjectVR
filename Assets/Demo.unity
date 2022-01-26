@@ -14036,8 +14036,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.8396226, g: 0.21669723, b: 0.20990565, a: 1}
-  m_Intensity: 2.43
+  m_Color: {r: 1, g: 0.010937511, b: 0.0047169924, a: 1}
+  m_Intensity: 4
   m_Range: 5.67
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -14149,8 +14149,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.8773585, g: 0.13656996, b: 0.21769333, a: 1}
-  m_Intensity: 2.43
+  m_Color: {r: 1, g: 0, b: 0.112449646, a: 1}
+  m_Intensity: 3
   m_Range: 5.67
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -18942,7 +18942,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9528302, g: 0.2382076, b: 0.23820755, a: 1}
+  m_Color: {r: 0.9529412, g: 0.8108574, b: 0.23921566, a: 1}
   m_Intensity: 2.75
   m_Range: 8.62
   m_SpotAngle: 30
@@ -19329,8 +19329,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.7754989, y: 1.6547717, z: 1.8029281}
-  m_Center: {x: -0.016903222, y: 0.824984, z: 0.06402302}
+  m_Size: {x: 16.0616, y: 1.6547718, z: 1.8029281}
+  m_Center: {x: -4.0426025, y: 0.824984, z: 0.06402166}
 --- !u!23 &1418640558
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -21899,7 +21899,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.754717, g: 0.08899963, b: 0.13410133, a: 1}
+  m_Color: {r: 1, g: 0.07075471, b: 0.13123812, a: 1}
   m_Intensity: 2.43
   m_Range: 5.67
   m_SpotAngle: 30
@@ -22500,7 +22500,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.8867924, g: 0.17150229, b: 0.3154405, a: 1}
-  m_Intensity: 1
+  m_Intensity: 3
   m_Range: 8.62
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -30023,7 +30023,7 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9245283, g: 0.17880027, b: 0.18588364, a: 1}
+  m_Color: {r: 0.9254902, g: 0.74192107, b: 0.18039215, a: 1}
   m_Intensity: 2.75
   m_Range: 8.62
   m_SpotAngle: 30
