@@ -55,7 +55,6 @@ public class NpcAgent : MonoBehaviour
         }
 
         distanceNpcToDestination = Vector3.Distance(this.transform.position, npcDestination);
-        Debug.LogError(distanceNpcToDestination);
         if (distanceNpcToDestination <= 1f)
         {
             stopped = true;
